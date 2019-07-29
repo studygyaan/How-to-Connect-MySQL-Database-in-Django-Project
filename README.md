@@ -12,13 +12,9 @@ In this tutorial, you will learn how to Export Excel Spreadsheet with Django. Yo
 5. Run the Application - `python3 manage.py runserver`
 6. Go to - http://localhost:8000/
 
-### Change Database Credentials with your Database -
+### Change Database Credentials with your Database - `blog/settings.py`
 
 `
-# settings.py file
-# Database
-# https://docs.djangoproject.com/en/2.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
